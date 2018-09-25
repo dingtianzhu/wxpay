@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	color: rgb(62,144,149);
+}
+input::-webkit-input-placeholder{
+	color: rgb(62,144,149);
+}
+input{
+	outline: none;
+}
+.mbody{
+	text-align: center;
+}
+.urlbody{
+	margin-top: 30px;
+}
+#title{
+	background: white;
+	width: 30%;
+	border: 1px solid lightgray;
+	padding: 5px;
+}
+#ztitle{
+width: 30%;
+    padding: 4px;
+    border: 1px solid lightgrey;
+}
+.titlerr{
+	color: red;
+	height: 20px;
+	line-height: 20px;
+	width: 26%;
+	font-size: 14px;
+	margin: 0px auto;
+}
+.urlerr{
+	color: red;
+	height: 20px;
+	line-height: 20px;
+	width: 26%;
+	font-size: 14px;
+	margin: 0px auto;
+}
+.urljiao{
+	background: transparent;
+	width: 50px;
+	border-radius: 10px;
+	border:1px solid rgb(62,144,149);
+	height: 30px;
+}
+#openid{
+	margin-top: 50px;
+    text-align: center;
+}
+#checkopen{
+	    border: 1px solid;
+    background: transparent;
+    padding: 8px;
+    border-radius: 10px;
+}

@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	color: #1B595E;
+}
+input{
+	border: 1px solid #1B595E;
+	outline: none;
+}
+a{
+	text-decoration:none;
+}
+ul,li{
+	list-style: none;
+}
+input::-webkit-input-placeholder{
+	color: #1B595E;
+}
+.appointbody{
+	height: 600px;
+}
+.listbody{
+	width: 1200px;
+	margin: auto;
+}
+.listbody h4{
+	font-size: 18px;
+	font-weight: 100;
+	padding-left: 10px;
+	height: 40px;
+	line-height: 40px;
+}
+.listbody h4 span{
+ float: left;	
+}
+#searchform{
+	float: left;
+	margin-left: 20px;
+}
+#searchtext{
+	padding-left: 10px;
+	line-height: 25px;
+}
+#searchbtn{
+	background: transparent;
+    border: 1px solid #1B595E;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    line-height: 25px;
+}
+.datalistbox{
+	
+}
+.listtitle{
+	background: #368a8f;
+	height: 30px;
+}
+.listtitle li{
+	float: left;
+	width: 11%;
+	height: 30px;
+	color: white;
+	text-align: center;
+	border-right:1px solid #1b595e ;
+	line-height: 30px;
+}
+.listtitle :nth-child(4){
+	width: 12%;
+}
+
+.listdata{
+	background: #d1e9eb;
+	height: 30px;
+}
+.listdata li{
+	float: left;
+	width: 11%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	overflow: hidden;
+}
+.listdata :nth-child(4){
+	width: 12%;
+}

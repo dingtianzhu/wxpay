@@ -1,0 +1,136 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 宽度等于设备宽度，初始缩放比例为1倍，最大缩放比例和禁止用户缩放 -->
+<meta name="viewport"content ="width=divice-width,initial-scale=1,maximum-scalable=no">
+
+<title>项目管理系统</title>
+<link rel="stylesheet" href="/assets/index/bs/css/bootstrap.min.css"type="text/css">
+<script src="/assets/index/bs/js/jquery.js"></script>
+<script src="/assets/index/bs/js/bootstrap.min.js"></script>
+<script src="/assets/ai/js/left.js"></script>
+<link rel="stylesheet" href="/assets/ai/css/style.css"type="text/css" />
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	
+		<a class="navbar-brand navbar-log glyphicon glyphicon-fire fire" href="{:url('index/index')}"></a>
+		<div class="navbar-header">
+			<p class="navbar-title " >数据分析后台管理系统</p>
+			<p class="p-wangzhi" >Management System</p>
+		</div>
+		
+		<button type="button"class="navbar-toggle" data-toggle="collapse"data-target="#navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse"id="navbar-collapse">
+		<ul class="nav navbar-nav navbar-right">
+			<li class="list-border"><a href=""class="glyphicon glyphicon-user fire">  &nbsp;admin</a>
+			</li>
+			
+			<li class="list-border"><a href="#" class="dropdown-toggle glyphicon glyphicon-th-large fire" data-toggle="dropdown"> 后台管理<span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#"class="glyphicon glyphicon-cog"> 修改密码</a></li>
+					<li class="divider"></li>
+					<li><a href="#"class="glyphicon glyphicon-off"> 安全退出</a></li>
+				</ul></a>
+			</li>
+			<li class="list-border"><a href="{:url('login/logout')}"class="glyphicon glyphicon-off program fire"> 安全退出</a>
+			</li>
+      </ul>   
+    </div>
+  </div>
+</nav>
+<div class="container container-body">
+	<div class="row">
+		<div class="col-md-2 left-menu bg-success">
+			<div class="list-group list-menu">
+				<a href="javascript:"class="list-group-item text-center active ">管理员中心</a>
+				<!--<a href="{:url('admin/index')}"class="list-group-item text-center list-xuanxiang"target="mainFrame">修改密码</a> -->
+			</div>
+
+      <div class="list-group list-menu">
+				<a href="javascript:"class="list-group-item text-center active">enter管理</a>
+				<a href="{:url('index/index')}"class="list-group-item text-center list-xuanxiang">enter信息</a>
+				<a href="{:url('index/add')}"class="list-group-item text-center list-xuanxiang">添加enter信息</a>
+      </div>
+      <div class="list-group list-menu">
+				<a href="javascript:"class="list-group-item text-center active">product管理</a>
+				<a href="{:url('product/index')}"class="list-group-item text-center list-xuanxiang">product信息</a>
+				<a href="{:url('product/add')}"class="list-group-item text-center list-xuanxiang">添加product信息</a>
+      </div>
+      <div class="list-group list-menu">
+				<a href="javascript:"class="list-group-item text-center active">orders管理</a>
+				<a href="{:url('orders/index')}"class="list-group-item text-center list-xuanxiang">orders信息</a>
+				<a href="{:url('orders/add')}"class="list-group-item text-center list-xuanxiang">添加orders信息</a>
+      </div>
+      <div class="list-group list-menu">
+				<a href="javascript:"class="list-group-item text-center active">release管理</a>
+				<a href="{:url('release/index')}"class="list-group-item text-center list-xuanxiang">release信息</a>
+				<a href="{:url('release/add')}"class="list-group-item text-center list-xuanxiang">添加release信息</a>
+			</div>
+		</div>
+		<div class="col-md-10 right">
+			{block name='right'}
+				  <div class="container-pulid">
+              <div class="panel panel-success">
+                <form class="navbar-form navbar-right" role="search"style="position:absolute;margin:0px 0px;padding:0px 0px;" action="{:url('index')}"method="post">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search"name='content'>
+                      </div>
+                      <button type="submit" class="btn btn-default">搜索</button>
+                  </form>
+                <div class="panel-heading">
+                  <b>查看用户</b>
+                </div>
+                <div class="table-responsive">
+                  <table class="table table-bordered table-hover table-striped text-center table-condensed">
+                    <tr >
+                      <th class="text-center">ID</th>
+                      <th class="text-center">报名人</th>
+                      <th class="text-center">电话号码</th>
+                      <th class="text-center">性别</th>
+
+                      <th class="text-center">地址</th>
+                      <th class="text-center">年龄</th>
+                      <th class="text-center">parents性名</th>
+                      <th class="text-center">报名时间</th>
+                      <th class="text-center">修改</th>
+                      <th class="text-center">删除</th>
+                    </tr>
+                    {volist name="data" id="val"} 
+                    <tr>
+                      <td>{$val.id}</td>
+                      <td>{$val.enter_name}</td>
+                      <td>{$val.tel}</td>
+                      <td>{if condition="$val.sex != 0"}男{else}女{/if}</td>
+                      <td>{$val.addr}</td>
+                      <td>{$val.age}</td>
+                      <td>{$val.parents_name}</td>
+                      <td>{:date('Y-m-d H:i:s',$val.enter_time)}</td>
+                      <td><a href="{:url('edit',['id'=>$val.id])}"class="glyphicon glyphicon-pencil edit"></a></td>
+                      <td><a href="{:url('del',['id'=>$val.id])}"class="glyphicon glyphicon-trash edit"></a></td>
+                    </tr>
+                    {/volist}
+                    <tr>
+                      <td colspan="7">
+                      {$data->render()}
+                      </td>
+                    </tr>   
+                  </table>  
+                </div>
+              </div>
+            </div>
+
+			{/block}
+		</div>
+	</div>
+</div>  
+</body>
+</html>

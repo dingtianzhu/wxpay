@@ -1,0 +1,97 @@
+*{
+	font-weight: 400;
+	font-family: 微软雅黑;
+}
+.fire{
+	color:#fff!important;
+}
+.navbar{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.list-menu{
+	
+	margin: 2px auto;
+	border-radius: 5px!important;
+
+}
+
+.list-group-item:first-child{
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.edit{
+	color:green!important;
+}
+
+.list-xuanxiang:hover{
+	background:#5cb85c!important;
+	color:#fff!important;
+}
+.active{
+	background: green!important;
+	border:  0px solid #fff!important; 
+
+}
+.container-body{
+	margin-top: 75px;
+	width: 100%;
+
+}
+
+.navbar-default{
+	background: green!important;
+}
+.left-menu{
+	border-right:  1px solid #eee;
+	height: 680px;
+}
+.program{
+	margin-right: 20px;
+}
+
+.span1{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 550;
+}
+.logoimg{
+  width: 150px;
+  height: 50px;
+  float:left;
+}
+.list-border{
+	border-right: 1px solid #777;
+}
+.navbar-log{
+	font-size: 40px;
+}
+.navbar-title{
+	font-size:20px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	color: #fff;
+
+}
+.p-wangzhi{
+	margin-bottom: 0px;
+	color: #fff;
+	padding-left: 10px;
+}
+
+.list-xuanxiang{
+	color:green!important;
+}
+.right{
+	margin-top: 5px;
+}
+.fenye li a{
+	color:green!important;
+}
+.pager{
+	margin:0;
+}
+label{
+	font-size: 15px;
+	font-family: 新宋体;
+}

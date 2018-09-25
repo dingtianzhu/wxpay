@@ -1,0 +1,74 @@
+{extend name='index:index'/}
+{block name='right'}
+	<div class="container-pulid">
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<b>添加商品</b>
+			</div>
+			<div class="table-responsive">
+				<table class="table table-bordered table-hover table-striped text-center table-condensed">
+					<form action="{:url('insert')}"method="post" enctype="multipart/form-data">
+					<tr>
+						<td>
+							<label>	
+								商品名称:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="product_name" class="form-control" placeholder="商品名称">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<label>
+								商品图片:
+							</label>
+						</td>
+						<td class=form-group">
+							<input type="file" name="file" id="file" placeholder="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								商品库存:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="count" class="form-control" placeholder="商品库存">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								商品价格:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="price" class="form-control" placeholder="商品价格">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								商品状态:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="status" class="form-control" placeholder="商品状态">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="submit" value="添加" class="btn btn-success ">
+							&nbsp;&nbsp;&nbsp;
+							<input type="reset" value="取消" class="btn btn-default ">
+						</td>
+					</tr>			
+					</form>
+				</table>
+			</div>	
+		</div>
+	</div>
+{/block}

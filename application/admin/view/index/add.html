@@ -1,0 +1,76 @@
+{extend name='index:index'/}
+{block name='right'}
+	<div class="container-pulid">
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<b>添加记录</b>
+			</div>
+			<div class="table-responsive">
+				<table class="table table-bordered table-hover table-striped text-center table-condensed">
+					<form action="{:url('insert')}"method="post">	
+					<tr>
+						<td>
+							<label>	
+								name:
+							</label>
+						</td>
+						<td>
+							<textarea name="enter_name" lay-verify="required"class="form-control"placeholder="请输入内容" class="layui-textarea"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>	
+								parents:
+							</label>
+						</td>
+						<td>
+							<textarea name="parents_name" lay-verify="required"class="form-control"placeholder="请输入内容" class="layui-textarea"></textarea>
+						
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								tel:
+							</label>
+						</td>
+						<td>
+							<textarea name="tel" lay-verify="required"class="form-control"placeholder="请输入内容" class="layui-textarea"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								sex:
+							</label>
+						</td>
+						<td>
+							<textarea name="sex" lay-verify="required"class="form-control"placeholder="请输入内容" class="layui-textarea"></textarea>
+
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								age:
+							</label>
+						</td>
+						<td>
+							<textarea name="age" lay-verify="required"class="form-control"placeholder="请输入内容" class="layui-textarea"></textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<input type="submit" value="添加"class="btn btn-success ">
+							&nbsp;&nbsp;&nbsp;
+							<input type="reset" value="取消"class="btn btn-default ">
+						</td>
+					</tr>			
+					</form>
+				</table>
+			</div>	
+		</div>
+	</div>
+{/block}

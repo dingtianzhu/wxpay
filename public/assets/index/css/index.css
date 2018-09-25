@@ -1,0 +1,257 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑"; 
+}
+input::-webkit-input-placeholder{
+	color: rgb(62,144,149);
+}
+input{
+	outline: none;
+}
+@keyframes change{
+	from{background-image: url(../image/logocenter.png);}
+	to{background-image: url(../image/logocenterd.png);}
+}
+@keyframes rotate{
+	from{transform: rotateY(0deg);}
+	to{transform: rotateY(90deg);}
+}
+@keyframes scale{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+@keyframes hoverrotate{
+	from{transform: rotateZ(0deg);}
+	to{transform: rotateZ(360deg);}
+}
+.logobody{
+	overflow: hidden;
+	position: relative;
+	width: 1200px;
+	margin: auto;
+}
+.logoimgcenter{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	background-image: url(../image/logocenter.png);
+	background-size:cover;
+	animation: change linear 1s infinite;
+}
+.threemaindiv{
+	width: 100%;
+	position: absolute;
+	height: 350px;
+	transform: skewX(90deg);
+	overflow: hidden;
+}
+.rotate{
+  animation: rotate 0.5s linear forwards;
+}
+.scale{
+	animation: scale 1.5s linear forwards;
+}
+.hoverrotate{
+	animation: hoverrotate 5s infinite linear;
+}
+.threeperson{
+	display: none;
+	width: 33%;
+	height: 350px;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+.threeperson img{
+	width:282px;
+	cursor: pointer;
+}
+.threeperson .cimg{
+	position: absolute;
+    left: 28.3%;
+    width: 172px;
+    top: 16%;
+}
+.formdiv{
+	display: none;
+	width: 90%;
+	position: absolute;
+	left: 10%;
+	height: 63%;
+	background: url(../image/dl.png);
+	background-repeat: no-repeat;
+	background-position: top center; 
+	top: 0;
+	padding-top: 130px;
+}
+.formdiv input{
+	width: 46%;
+	height: 30px;
+	border: 0px;
+}
+#teld{
+	background-image: url(../image/admin.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px 3px;
+	border-radius: 5px;
+}
+#tela{
+	background-image: url(../image/admin.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px 3px;
+	border-radius: 5px;
+}
+#telv{
+	background-image: url(../image/admin.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px 3px;
+	border-radius: 5px;
+}
+.telerrd{
+	height: 20px;
+    text-align: start;
+    width: 53%;
+    padding-left: 5px;
+    color: white;
+    margin: auto;
+    font-size: 13px;
+}
+.telerra{
+	height: 20px;
+    text-align: start;
+    width: 53%;
+    padding-left: 5px;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+}
+.telerrv{
+	height: 20px;
+    text-align: start;
+    width: 53%;
+    padding-left: 5px;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+}
+#passwdd{
+	background-image: url(../image/suo.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px 0px;
+	border-radius: 5px;
+}
+#passwda{
+	background-image: url(../image/suo.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px 0px;
+	border-radius: 5px;
+}
+#checkv{
+	background-image: url(../image/suo.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px 0px;
+	border-radius: 5px;
+	width: 25%;
+	margin-left: -20%;
+}
+#checkd{
+	background-image: url(../image/suo.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	background-position: 5px 0px;
+	border-radius: 5px;
+	width: 25%;
+	margin-left: -20%;
+}
+.passerrd{
+	height: 20px;
+    text-align: start;
+    width: 53%;
+    padding-left: 5px;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+}
+.passerra{
+	height: 20px;
+    text-align: start;
+    width: 53%;
+    padding-left: 5px;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+}
+.checkerrv{
+	height: 20px;
+    text-align: start;
+    width: 53%;
+    padding-left: 5px;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+}
+.checkerrd{
+	height: 20px;
+    text-align: start;
+    width: 53%;
+    padding-left: 5px;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+}
+.getcheck{
+	float: right;
+	width: 20%;
+	background: white;
+	color: #1f7c83;
+	border-radius: 5px;
+	position: absolute;
+	right: 22%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	top: 51.4%;
+	cursor: pointer;
+	font-size: 13px;
+}
+.getcheckd{
+	float: right;
+	width: 20%;
+	background: white;
+	color: #1f7c83;
+	border-radius: 5px;
+	position: absolute;
+	right: 22%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	top: 51.4%;
+	cursor: pointer;
+	font-size: 13px;
+}
+#submd{
+	width: 20%;
+	border-radius: 5px;
+	background: white;
+	color: #1f7c83;
+}
+#subma{
+	width: 20%;
+	border-radius: 5px;
+	background: white;
+	color: #1f7c83;
+}
+#submv{
+	width: 20%;
+	border-radius: 5px;
+	background: white;
+	color: #1f7c83;
+}
+

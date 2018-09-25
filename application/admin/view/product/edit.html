@@ -1,0 +1,76 @@
+{extend name='index:index'/}
+{block name='right'}
+	<div class="container-pulid">
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<b>修改记录</b>
+			</div>
+	
+			<table class="table table-hover table-bordered table-striped text-center">
+				<form action="{:url('update')}" method="post" enctype="multipart/form-data">
+					<tr>
+						<td>
+							<label>
+								商品名称:
+							</label>
+						</td>
+						<td>
+							<input type="text" value="{$data['product_name']}" name="product_name" class="form-control" placeholder="商品名称">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<label>
+								商品图片:
+							</label>
+						</td>
+						<td class=form-group">
+							<input type="file" name="file" id="file" placeholder="">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								商品库存:
+							</label>
+						</td>
+						<td>
+							<input type="text" name="count" value="{$data['count']}" class="form-control" placeholder="商品库存">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								商品价格:
+							</label>
+						</td>
+						<td>
+							<input type="text" value="{$data['price']}" name="price" class="form-control" placeholder="商品价格">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								商品状态:
+							</label>
+						</td>
+						<td>
+							<input type="text" value="{$data['status']}" name="status" class="form-control" placeholder="商品状态">
+						</td>
+					</tr>
+					
+					<input type="hidden" name="id" value="{$data['id']}">
+					<tr>
+						<td colspan="2">
+							<input type="submit" value="修改"class="btn btn-success ">
+							&nbsp;&nbsp;&nbsp;
+							<input type="reset" value="取消"class="btn btn-default ">
+						</td>
+					</tr>							
+				</form>
+			</table>	
+		</div>
+	</div>
+{/block}
+	

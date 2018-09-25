@@ -1,0 +1,287 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+.topslim{
+	height: 90px;
+}
+.logoimg{
+	height: 100%;
+}
+.userzhang{
+	float: right;
+	width: 100px;
+	line-height: 90px;
+	text-align: center;
+	cursor: pointer;
+	color: #449297;
+	margin-right: 120px;
+	position: relative;
+}
+.outb{
+	position: absolute;
+    top: 70px;
+    width: 100px;
+    text-align: center;
+    left: 0px;
+    z-index: 100;
+    line-height: 20px;
+    color: #1f7c82;
+    display: none;
+    background: white;
+}
+.mainbody{
+	overflow: hidden;
+}
+.bodypic{
+	width: 1200px;
+	margin: auto;
+	height: 540px;
+}
+.threeshow{
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+.zthrid{
+	height: 170px;
+	position: relative;
+	overflow: hidden;
+}
+.zs1{
+	display: none;
+}
+.zs1 img{
+	width: 233%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.xueyaval{
+	width: 250px;
+	height: 100px;
+	float: left;
+	line-height: 125px;
+	text-align: center;
+	font-size: 30px;
+	color: #1F7C82;
+}
+@keyframes linex{
+	from{left: 0px;}
+	to{left: -100px;}
+}
+.yatexiao{
+	width: 80px;
+	height: 100px;
+	position: absolute;
+	right: 56px;
+	overflow: hidden;
+	z-index: 10;
+	top: 0px;
+}
+#xianimg{
+	position: absolute;
+	width: 350%;
+	top: 50px;
+	left: 0px;
+	animation: linex 4s linear infinite;
+}
+.zs2{
+	display: none;
+}
+.zs2 img{
+	width: 224%;
+	position: absolute;
+	top: -90px;
+	left: 20px;
+}
+.tizhongval{
+	width: 250px;
+	height: 100px;
+	color: #1F7C82;
+	float: left;
+	line-height: 125px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 36px;
+}
+#tizhong{
+	position: absolute;
+	top: 50px;
+	left: 240px;
+	z-index: 10;
+	width: 30px;
+}
+.zs3{
+	display: none;
+}
+.zs3 img{
+	width: 234%;
+	top: -205px;
+	left: 0px;
+	position: absolute;
+}
+.xuezhival{
+	width: 250px;
+	height: 100px;
+	float: left;
+	color: #1F7C82;
+	line-height: 150px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 36px;
+}
+#xuezhi{
+	position: absolute;
+	z-index: 10;
+	width: 40px;
+	top: 85px;
+	left: 285px;
+}
+.mainpic{
+	width: 85%;
+	margin-top: 80px;
+	margin-right: 35px;
+	margin-left: 10px;
+	display: none;
+}
+.redce{
+	padding: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	border: 1px solid #227E84;
+	color: #1F7C82;
+	display: none;
+	text-decoration: none;
+}
+.ythrid{
+	height: 170px;
+	position: relative;
+	overflow: hidden;
+}
+.ys1{
+	display: none;
+}
+.ys1 img{
+	width: 233%;
+	left: -532px;
+	position: absolute;
+}
+.xinlval{
+	width: 250px;
+	height: 100px;
+	float: right;
+	color: #1F7C82;
+	font-size: 30px;
+	line-height: 125px;
+	text-align: center;
+}
+@keyframes da{
+	from{transform: scale(1);}
+	to{transform: scale(1.3);}
+}
+#xinlvs{
+	width: 40px;
+	position: absolute;
+	left: 77px;
+	top: 45px;
+	z-index: 10;
+	animation: da 1s linear infinite;
+}
+.ys2{
+	display: none;
+}
+.ys2 img{
+	width: 224%;
+	position: absolute;
+	top: -90px;
+	right: 20px;
+}
+.hotval{
+	width: 250px;
+	height: 100px;
+	float: right;
+	color: #1F7C82;
+	font-size: 30px;
+	line-height: 125px;
+	text-align: center;
+	margin-top: 35px;
+}
+#tiwens{
+	width: 40px;
+	position: absolute;
+	right: 240px;
+	top: 75px;
+	z-index: 10;
+}
+.ys3{
+	display: none;
+}
+.ys3 img{
+	width: 234%;
+	left: -536px;
+	top: -205px;
+	position: absolute;
+}
+.xuetangval{
+	width: 250px;
+	height: 100px;
+	float: right;
+	color: #1F7C82;
+	font-size: 30px;
+	line-height: 125px;
+	text-align: center;
+	margin-top: 55px;
+}
+#xuetangs{
+	position: absolute;
+	top: 85px;
+	width: 50px;
+	left: 70px;
+	z-index: 10;
+}
+#smallfont{
+	font-size: 13px;
+	line-height: 20px;
+}
+.environmentbox{
+	display: none;
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+	color: #1F7C82;
+	text-align: center;
+}
+.sixenvironment{
+	width: 190px;
+	height: 65px;
+	border-radius: 25px;
+	float: left;
+	border:3px solid #1F7C82 ;
+	margin-left: 4px;
+	line-height: 65px;
+	font-size: 25px;
+}
+.sixtitle{
+	width: 200px;
+	height: 20px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+.bottomslim{
+	height: 90px;
+	text-align: center;
+	line-height:90px;
+	color:#1f7c83;
+	font-size: 12px;
+}

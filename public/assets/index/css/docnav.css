@@ -1,0 +1,55 @@
+.topslim{
+	height: 90px;
+	background: white;
+	min-width: 1200px;
+	overflow: hidden;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.logoimg{
+	height: 100%;
+	float: left;
+}
+.docnav{
+	height: 90px;
+	float: left;
+}
+.docnav li{
+	    height: 90px;
+    float: left;
+    line-height: 90px;
+    width: 120px;
+    text-align: center;
+}
+.docnav li a{
+	color: #1B595E;
+}
+.userzhang{
+	float: right;
+	width: 100px;
+	line-height: 90px;
+	text-align: center;
+	cursor: pointer;
+	color: #449297;
+	margin-right: 120px;
+	position: relative;
+}
+.outb{
+	position: absolute;
+    top: 70px;
+    width: 100px;
+    text-align: center;
+    left: 0px;
+    z-index: 100;
+    line-height: 20px;
+    color: #1f7c82;
+    display: none;
+    background: white;
+}

@@ -1,0 +1,48 @@
+{extend name='index:index'/}
+{block name='right'}
+
+<div class="container-pulid">
+    <div class="panel panel-success">
+        <form class="navbar-form navbar-right" role="search"style="position:absolute;margin:0px 0px;padding:0px 0px;" action="{:url('index')}"method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search"name='content'>
+            </div>
+            <button type="submit" class="btn btn-default">搜索</button>
+        </form>
+        <div class="panel-heading">
+            <b>查看医生</b>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped text-center table-condensed">
+                <tr >
+                    <th class="text-center">ID</th>
+                    <th class="text-center">收货地址</th>
+                    <th class="text-center">收货人</th>
+                    <th class="text-center">收货人电话</th>
+                    <th class="text-center">邮政编码</th>
+                    <th class="text-center">修改</th>
+                    <th class="text-center">删除</th>
+                </tr>
+                {volist name="data" id="val"}
+                <tr>
+                    <td>{$val.id}</td>
+                    <td>{$val.address}</td>
+                    <td>{$val.name}</td>
+                    <td>{$val.tel}</td>
+                    <td>{$val.EMS_code}</td>
+                    <td><a href="{:url('release/edit',['id'=>$val.id])}"class="glyphicon glyphicon-pencil edit"></a></td>
+                    <td><a href="{:url('release/del',['id'=>$val.id])}"class="glyphicon glyphicon-trash edit"></a></td>
+                </tr>
+                {/volist}
+                <tr>
+                    <td colspan="7">
+                        {$data->render()}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+{/block}
+

@@ -1,0 +1,213 @@
+*{
+ margin:0px;
+ padding: 0px;
+ font-family: "微软雅黑";
+}
+.body{
+	min-width: 1200px;
+}
+.main{
+	width: 100%;
+	background: #6c939a;
+}
+.nav{
+	height: 60px;
+	width: 70%;
+	margin: auto;
+}
+.logo{
+	width: 50px;
+	float: left;
+	margin-top: 5px;
+}
+.afterlogo{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.logotitle{
+	    color: #00e3fb;
+	    font-size: 16px;
+}
+.infortitle{
+    color: rgba(255,255,255,.5);
+    line-height: 18px;
+    font-size: 12px;
+}
+
+
+.centerbox{
+	width: 100%;
+	background: url(../image/Poster.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0; 
+	overflow: hidden;
+	min-height: 590px;
+}
+
+.regbox{
+	width: 1200px;
+	margin: auto;
+}
+.formbox{
+   width: 40%;
+   height: 500px;
+   float: right;
+   background: #F8F8F8;
+   border:1px solid lightgray;
+   border-radius: 5px;
+   border-top: 2px solid #00E3FB;
+   margin-top: 10%;
+}
+.formbox h3{
+	text-align: center;
+	color: deepskyblue;
+}
+.inputuser{
+	background-repeat:no-repeat ;
+	height: 40px;
+	width: 70%;
+	margin: auto;
+	margin-top: 20px;
+}
+.inputuser input{
+	background:#9bc6ce url(../image/USER.png);
+	background-repeat: no-repeat;
+	background-position:10px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	border: 1px solid lightgray;
+	padding-left: 35px;
+}
+.usererr{
+	width: 70%;
+	margin: auto;
+	height: 30px;
+	color: red;
+	padding-left: 5px;
+	line-height: 20px;
+}
+.inputpass{
+	background-repeat:no-repeat ;
+	height: 40px;
+	width: 70%;
+	margin: auto;
+}
+.inputpass input{
+	background:#9bc6ce url(../image/LOCK.png);
+	background-repeat: no-repeat;
+	background-position:10px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	border: 1px solid lightgray;
+	padding-left: 35px;
+}
+.passerr{
+	width: 70%;
+	margin: auto;
+	height: 30px;
+	color: red;
+	line-height: 20px;
+	padding-left: 5px;
+}
+.zaiinputpass{
+	background-repeat:no-repeat ;
+	height: 40px;
+	width: 70%;
+	margin: auto;
+}
+.zaiinputpass input{
+	background:#9bc6ce url(../image/LOCK.png);
+	background-repeat: no-repeat;
+	background-position:10px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	border: 1px solid lightgray;
+	padding-left: 35px;
+}
+.zaipasserr{
+	width: 70%;
+	margin: auto;
+	height: 30px;
+	color: red;
+	line-height: 20px;
+	padding-left: 5px;
+}
+.check{
+	height: 40px;
+	width: 70%;
+	margin: auto;
+}
+.check input{
+	height: 40px;
+	border: 1px solid lightgray;
+	padding-left: 15px;
+	width: 70%;
+	background:#9bc6ce;
+	color: white;
+}
+.getcheck{
+	height: 40px;
+	float: right;
+	width: 30%;
+	background: lightgray;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.checkerr{
+	width: 70%;
+	margin: auto;
+	height: 30px;
+	color: red;
+	line-height: 20px;
+	padding-left: 5px;
+}
+.otherbox{
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	height: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.otherbox :nth-child(1){
+	float: left;
+}
+.otherbox :nth-child(2){
+	float: right;
+}
+.otherbox a:hover{
+	text-decoration: none;
+}
+.btnbox{
+	text-align: center;
+	margin-top: 20px;
+}
+.joinbtn{
+	background: deepskyblue;
+	color: white;
+	width: 50%;
+	border: 0px;
+	height: 40px;
+}
+
+
+
+
+
+
+
+
+
+.bottom{
+	height: 60px;
+	background: #6c939a;
+	text-align: center;
+	line-height: 60px;
+	color: #b5c9cc;
+}

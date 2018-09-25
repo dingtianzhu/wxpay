@@ -1,0 +1,41 @@
+.topslim{
+	height: 90px;
+	min-width: 1200px;
+}
+.logoimg{
+	height: 100%;
+}
+.userzhang{
+	float: right;
+	width: 100px;
+	line-height: 90px;
+	text-align: center;
+	cursor: pointer;
+	color: #449297;
+	margin-right: 120px;
+	position: relative;
+}
+.outb{
+	position: absolute;
+    top: 70px;
+    width: 100px;
+    text-align: center;
+    left: 0px;
+    z-index: 100;
+    line-height: 20px;
+    color: #1f7c82;
+    display: none;
+    background: white;
+}
+
+.bottomslim{
+	height: 90px;
+	text-align: center;
+	line-height:90px;
+	color:#1f7c83;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}

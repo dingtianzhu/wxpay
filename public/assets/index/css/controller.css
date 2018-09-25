@@ -1,0 +1,180 @@
+.con {
+  min-width: 980px;
+  margin: 40px auto;
+}
+
+.lab {
+  display: inline-block;
+  width: 20%;
+  min-width: 202px;
+  height: 80px;
+  line-height: 80px;
+  margin-left: 3%;
+  background: #D1E9EB;
+  color: #D1E9EB;
+  position: relative;
+}
+
+/*.lab:first-child {
+  background: rgb(254, 166, 133);
+  color: rgb(254, 166, 133);
+}
+
+.lab:nth-child(2) {
+  background: rgb(104, 183, 243);
+  color: rgb(104, 183, 243);
+}
+
+.lab:nth-child(3) {
+  background: rgb(192, 171, 224);
+  color: rgb(192, 171, 224);
+}
+
+.lab:nth-child(4) {
+  background: rgb(86, 209, 261);
+  color: rgb(86, 209, 261);
+}*/
+
+.iconfont4,
+.iconfont5,
+.iconfont6,
+.iconfont7 {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #D1E9EB;
+  margin-left: 25px;
+}
+
+.count {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  height: 80px;
+  text-align: right;
+  color: #429197;
+}
+
+.count h1 {
+  font-size: 28px;
+  height: 43px;
+  line-height: 43px;
+  margin-bottom: -25px;
+  font-weight: normal;
+  margin: 0 0 -25px;
+}
+
+.count span {
+  font-size: 12px;
+}
+
+.charts {
+  margin: 45px 45px 20px;
+}
+
+#guest {
+  background: #fff;
+  width: 600px;
+  height: 400px;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+}
+
+#member {
+  background: #fff;
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  margin-left: 30px;
+  float: left;
+}
+
+.other_charts {
+  margin: 20px 10px 10px;
+}
+
+.left_wrapper {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  margin-left: 50px;
+}
+
+#gus {
+  background: #fff;
+  height: 400px;
+  min-width: 500px;
+  display: inline-block;
+  margin-bottom: 15px;
+  float: left;
+}
+
+#gues {
+  background: #fff;
+  min-width: 500px;
+  height: 400px;
+  display: inline-block;
+  margin-bottom: 15px;
+  float: left;
+}
+
+#sex {
+  background: #fff;
+  min-width: 500px;
+  height: 300px;
+  display: inline-block;
+  float: left;
+}
+
+#se {
+  background: #fff;
+  min-width: 500px;
+  height: 300px;
+  display: inline-block;
+  float: left;
+}
+
+#weekgus {
+  display: inline-block;
+  min-width: 300px;
+  height: 715px;
+  background: #fff;
+  margin-left: 50px;
+  float: left;
+}
+
+#weekgues {
+  display: inline-block;
+  min-width: 300px;
+  height: 715px;
+  background: #fff;
+  margin-left: 50px;
+  float: left;
+}
+
+.thi_charts {
+  margin: 10px 10px 20px;
+}
+
+#age {
+  display: inline-block;
+  min-width: 500px;
+  height: 400px;
+  background: #fff;
+  margin-left: 50px;
+  float: left;
+}
+
+#memb {
+  background: #fff;
+  min-width: 300px;
+  height: 400px;
+  display: inline-block;
+  margin-left: 50px;
+  float: left;
+}

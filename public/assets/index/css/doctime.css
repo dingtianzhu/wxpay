@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑";
+}
+
+li {
+    list-style: none;
+}
+
+.cludebody {
+    width: 100%;
+    min-width: 1200px;
+	background: #F5F5F5;
+}
+
+.leftdiv {
+    background: #D1E9EB;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    /*height: 619px;*/
+}
+
+#docinfo {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.imgbox {
+    border: 1px solid cadetblue;
+    width: 250px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+}
+
+.imgbox img {
+    width: 100%;
+    height: 100%;
+}
+
+#file {
+    display: none;
+}
+
+#label {
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    color: gray;
+    right: 8px;
+}
+
+.infobox {
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+
+.infobox h3 {
+    margin-top: 10px;
+}
+
+.infobox p {
+    margin-top: 10px;
+	font-size: 16px;
+}
+
+.rightdiv {
+    float: right;
+    width: 69%;
+    background: #D1E9EB;
+    overflow-y: auto;
+    /*height: 619px;*/
+}
+
+.everyslim {
+    border: 2px solid white;
+   height: 50px;
+    padding-left: 3%;
+    font-size: 20px;
+    color: #5FA8AD;
+    background: #D1E9EB url(../image/whitequan.png);
+    background-repeat: no-repeat;
+    background-position: 3% 18px;
+	overflow: hidden;
+}
+
+.timetitle {
+   width: 15%;
+	margin-top: 9px;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.time {
+   width: 40%;
+	margin-top: 9px;
+	text-align: center;
+}
+
+.paytitle {
+   width: 10%;
+	margin-top: 9px;
+	text-align: center;
+}
+
+.pay {
+  width: 10%;
+  text-align: center;
+	margin-top: 9px;
+}
+
+.yuyueren {
+   width: 10%;
+   text-align: center;
+	margin-top: 9px;
+}
+.yuyueren2 a{
+	color:#5FA8AD ;
+}
+
+.addtime {
+    float: right;
+    font-size: 20px;
+    margin-right: 2%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.jiantime{
+	float: right;
+	font-size: 20px;
+	margin-right: 2%;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.everyslim1 {
+    border: 2px solid white;
+   height: 50px;
+    padding-left: 3%;
+    font-size: 20px;
+    color: #5FA8AD;
+    background: #D1E9EB url(../image/whitequan.png);
+    background-repeat: no-repeat;
+    background-position: 3% 16px;
+	overflow: hidden;
+}
+
+.timetitle1 {
+	margin-top: 9px;
+    text-align: center;
+	width: 15%;
+	margin-left: 5%;
+}
+
+.time1 {
+	margin-top: 9px;
+	width:40%;
+    text-align: center;
+}
+
+.paytitle1 {
+    width: 10%;
+	margin-top: 9px;
+    text-align: center;
+}
+
+.pay1 {
+	margin-top: 9px;
+	width: 10%;
+    text-align: center;
+	}
+
+.yuyueren1 {
+	width: 10%;
+	margin-top: 9px;
+	float: left;
+    text-align: center;
+}
+
+.addtime1 {
+    float: right;
+    font-size: 20px;
+    margin-right: 2%;
+    margin-top: 12px;
+    cursor: pointer;
+	color: white;
+}
+
+
+.everyslim2 {
+    border: 2px solid white;
+   height: 50px;
+    padding-left: 3%;
+    font-size: 20px;
+    color: #5FA8AD;
+    background: #D1E9EB url(../image/whitequan.png);
+    background-repeat: no-repeat;
+    background-position: 3% 18px;
+}
+
+.everyslim span{
+	display: block;
+	float: left;
+}
+.everyslim1 span{
+	display: block;
+	float: left;
+}
+.everyslim2 span{
+	display: block;
+	float: left;
+}
+.everyslim3 span{
+	display: block;
+	float: left;
+}
+
+.timetitle2 {
+  width: 15%;
+  text-align: center;
+  margin-left: 5%;
+	margin-top: 9px;
+}
+
+.time2{
+  width: 40%;
+  text-align: center;
+	margin-top: 9px;
+}
+
+.paytitle2 {
+   width: 10%;
+   text-align: center;
+	margin-top: 9px;
+}
+
+.pay2 {
+    width: 10%;
+	text-align: center;
+	margin-top: 9px;
+}
+
+.yuyueren2 {
+  width: 10%;
+  text-align: center;
+	margin-top: 9px;
+}
+
+
+.zhe{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		display: none;
+		background: rgba(255, 255, 255, 0.57);
+	}
+	.adddoctime{
+		width: 450px;
+		height: 190px;
+		margin:auto;
+		border-radius: 10px;
+    overflow: hidden;
+		background: #E4F4F5;
+		border: 3px solid #1F7C82;
+	}
+	.adddoctime h3{
+		background:#1F7C82;
+		color: white;
+		font-size: 18px;
+		font-weight: normal;
+		text-align: center;
+		margin-top: 0px;
+		line-height: 40px;
+	}
+	.adddoctime h3 span{
+		float: right;
+		margin-right: 10px;
+		color: white;
+		cursor: pointer;
+	}
+	.addtimebox{
+		height: 45px;
+	}
+	.addtimebox p{
+		width: 50%;
+		float: left;
+		line-height: 45px;
+		margin: 0px;
+		text-align: center;
+		font-size: 18px;
+	}
+	.adddoctime input{
+		outline: none;
+		padding: 6px;
+		cursor: pointer;
+		border: 1px solid #1F7C82;
+		background: #D1E9EB;
+	}
+.adddoctime input::-webkit-input-placeholder{
+	color: #1F7C82;
+
+}	
+	
+	.timeinput{
+		text-align: center;
+	}
+	.timeinput :nth-child(1){
+		margin-left: 0px;
+	}
+	.timeinput :nth-child(2){
+		margin-left: 50px;
+	}
+	.adddoctime  .timesub{
+		background: #1F7C82;
+		color: white;
+		border-radius: 5px;
+		display: block;
+		padding: 15px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		width: 40%;
+		font-size: 18px;
+		border: 1px solid #1F7C82;
+    margin: auto;
+    margin-top: 10px;
+	}

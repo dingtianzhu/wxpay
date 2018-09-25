@@ -1,0 +1,426 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	color: #1f7c82;
+}
+
+ul,
+li {
+	list-style: none;
+}
+input{
+	outline: none;
+}
+input::-webkit-input-placeholder{
+	color: #1f7c82;
+}
+
+.body {
+	width: 100%;
+	min-width: 1200px;
+}
+
+
+.tanzhua {
+	width: 1200px;
+	margin: auto;
+	height: 630px;
+	margin-top: 70px;
+	position: relative;
+}
+
+.lielist {
+	height: 100%;
+}
+
+.zhuatitle {
+	margin: auto;
+	margin-top: 5px;
+	line-height: 30px;
+	padding-left: 20px;
+	width: 95%;
+	font-size: 16px;
+	border-left: 2px solid #368a8f;
+}
+
+.timefind {
+	width: 95%;
+	margin: auto;
+	height: 50px;
+	margin-top: 5px;
+	padding-left: 20px;
+}
+
+.timefind div {
+	display: inline-block;
+}
+.timefind form{
+	display: inline-block;
+	width: 90%;
+}
+.timefind input{
+	cursor: pointer;
+}
+
+.frightp {
+	float: right;
+	width: 300px;
+	text-align: center;
+}
+
+.frightp input {
+	margin-right: 30px;
+	padding: 5px;
+	width: 90px;
+	background: transparent;
+	border: 1px solid #1f7c82;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.showzhuapic {
+	width: 97%;
+	margin: auto;
+	height: 410px;
+	margin-top: 5px;
+	text-align:center;
+}
+
+.showzhuapic img{
+	height: 65%;
+	width: 85%;
+}
+.showzhuapic::-webkit-scrollbar{
+	width: 0px;
+}
+
+.showzhuapic span {
+	float: left;
+	width: 180px;
+	height: 205px;
+	margin: 2px;
+	margin-left: 12px;
+	border: 1px solid rgb(62,144,149);
+	background-position: 6px 5px;
+	background-repeat: no-repeat;
+	background-size: 125px 140px;
+	position: relative;
+	overflow: hidden;
+}
+
+.showpicinfor {
+	width: 180px;
+	height: 75px;
+	text-align: center;
+}
+
+.inforreg {
+	cursor: pointer;
+}
+
+.zhuatim {
+	margin: 5px auto;
+}
+.zhuacamra{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.tabqian {
+	margin: auto;
+    text-align:center;
+	margin-top:25px;
+	height: 40px;
+}
+.pagenum{
+	width: 70px;
+	padding-left: 5px;
+	margin-left: 15px;
+}
+.pagination>li>a, .pagination>li>span{
+	 color: rgb(62,144,149);;
+}
+.jumpniu{
+	text-align: center;
+	padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+	cursor: pointer;
+	border: 1px solid #1f7c82;
+	border-radius: 5px;
+	line-height: 15px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background-color: rgb(167,211,214);
+    border-color: rgb(167,211,214);
+    color: rgb(62,144,149);
+
+}
+.pagination{
+margin:auto;
+margin: -12px;
+}
+
+
+
+.zhuaregp {
+	top: 0px;
+	left: 0px;
+	background: rgba(95,95,99,0.31);
+	position: fixed;
+	z-index: 100;
+	display: none;
+}
+
+.reg_form {
+	width: 600px;
+	height: 600px;
+	background: white;
+	margin:auto;
+	margin-top: 3%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#code{
+	width: 125px;
+	height: 25px;
+}
+.zhuatitle_reg {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	border-left: 2px solid #1f7c82;
+	margin: 0px;
+	margin-top: 5px;
+	margin-left: 2px;
+	font-size: 16px;
+}
+.threechoice{
+	height: 30px;
+	width: 60%;
+	margin: auto;
+}
+
+.threechoice li{
+	border-radius: 6px;
+    float: left;
+    cursor: pointer;
+    width: 32%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #1f7c82;
+    margin-left: 4px;
+    color: white;
+}
+.threechoice :nth-child(1){
+	background:#d1e9eb ;
+	color: #1f7c82;
+}
+.ygformbox{
+	margin-top: 15px;
+	padding-left: 10px;
+}
+.ygformbox div{
+	width:60%;
+	margin: auto;
+}
+.ygformbox label {
+	cursor: pointer;
+}
+
+.vipformbox {
+	display: none;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+.vipformbox div{
+	width:60%;
+	margin: auto;
+}
+.vipformbox label {
+	cursor: pointer;
+}
+
+.docformbox {
+	display: none;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+.docformbox div{
+	width:60%;
+	margin: auto;
+}
+.docformbox label {
+	cursor: pointer;
+}
+
+#job{
+	width: 80px;
+	height: 20px;
+}
+#zw{
+	display: none;
+}
+
+.renname input {
+	line-height: 25px;
+	width: 200px;
+	padding-left: 10px;
+}
+.namerr{
+	height: 20px;
+	line-height: 20px;
+	color:red;
+	width: 200px;
+	margin: auto;
+}
+
+.rensex input {
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+.rentel input {
+	width: 200px;
+	line-height: 25px;
+	padding-left: 10px;
+}
+.telerr{
+	height: 20px;
+	line-height: 20px;
+	color:red;
+	width: 200px;
+	margin: auto;
+}
+.shijian input {
+	cursor: pointer;
+	line-height: 25px;
+	padding-left: 10px;
+	width: 200px;
+}
+.birtherr{
+	height: 20px;
+	line-height: 20px;
+	color:red;
+	width: 200px;
+	margin: auto;
+}
+.homepla input {
+	line-height: 25px;
+	padding-left: 10px;
+	width: 200px;
+}
+.placerr{
+	height: 20px;
+	line-height: 20px;
+	color:red;
+	width: 200px;
+	margin: auto;
+}
+.welcom input{
+	line-height: 25px;
+	padding-left: 10px;
+	width: 200px;
+}
+.welcomerr{
+	height: 20px;
+	line-height: 20px;
+	color:red;
+	width: 200px;
+	margin: auto;
+}
+.picpian {
+	height: 170px;
+}
+.docformbox .picpian{
+	margin: 0px;
+    margin-left: 120px;
+    width: 25%;
+    height: 180px;
+    float: left;
+}
+.picpian span {
+	float: left;
+}
+.docformbox .piankuang{
+	width: 140px;
+	height: 160px;
+}
+.docinfo span{
+	float: left;
+}
+#docinfor{
+	width: 57%;
+	height: 160px;
+	resize: none;
+	float: left;
+	padding: 10px;
+}
+.piankuang {
+	padding: 5px;
+	border: 1px solid #1f7c82;
+	width: 145px;
+	height: 165px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btnbox {
+	height: 35px;
+	text-align: center;
+}
+.btnbox button {
+	width: 85px;
+	height: 25px;
+	margin: 15px;
+	margin-top: 5px;
+	border: 1px solid #1B595E;
+    background: transparent;
+    border-radius: 5px;
+}
+.ygformbox .backguai {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #1f7c82;
+	border-radius: 100%;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.vipformbox .backguai {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #1f7c82;
+	border-radius: 100%;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.docformbox .backguai {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #1f7c82;
+	border-radius: 100%;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	margin-top: 155px;
+}
+#laydate_ys{
+	background: white;
+}
+#laydate_ms{
+	background: white;
+}
+.laydate_body .laydate_ym .laydate_yms{
+	height: 175px;
+}

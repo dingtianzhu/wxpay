@@ -1,0 +1,48 @@
+{extend name='index:index'/}
+{block name='right'}
+
+<div class="container-pulid">
+    <div class="panel panel-success">
+        <form class="navbar-form navbar-right" role="search"style="position:absolute;margin:0px 0px;padding:0px 0px;" action="{:url('index')}"method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search"name='content'>
+            </div>
+            <button type="submit" class="btn btn-default">搜索</button>
+        </form>
+        <div class="panel-heading">
+            <b>查看医生</b>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped text-center table-condensed">
+                <tr >
+                    <th class="text-center">订单编号</th>
+                    <th class="text-center">商品名</th>
+                    <th class="text-center">订单价格</th>
+                    <th class="text-center">商品图片</th>
+                    <th class="text-center">收货人信息</th>
+                    <th class="text-center">修改</th>
+                    <th class="text-center">删除</th>
+                </tr>
+                {volist name="data" id="val"}
+                <tr>
+                    <td>{$val.id}</td>
+                    <td>{$val.product_name}</td>
+                    <td>{$val.price}</td>
+                    <td><img src="{$val.product_img}" style="width: 100px;height: 80px;line-height: 100px" alt=""></td>
+                    <td>收货人地址：{$val.address}收货人姓名：{$val.name}收货人电话：{$val.tel}</td>
+                    <td><a href="{:url('orders/edit',['id'=>$val.id])}"class="glyphicon glyphicon-pencil edit"></a></td>
+                    <td><a href="{:url('orders/del',['id'=>$val.id])}"class="glyphicon glyphicon-trash edit"></a></td>
+                </tr>
+                {/volist}
+                <tr>
+                    <td colspan="7">
+                        {$data->render()}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+{/block}
+

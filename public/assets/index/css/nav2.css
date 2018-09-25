@@ -1,0 +1,89 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+
+
+.hang {
+	height: 90px;
+	overflow: hidden;
+	min-width: 1200px;
+}
+
+.logo {
+	float: left;
+	width:330px;
+}
+
+.navhang {
+	position: relative;
+	height: 90px;
+	display: inline-block;
+}
+
+.navhang a {
+	color: #1f7c82;
+	font-size: 16px;
+}
+
+.navhang a:hover {
+	text-decoration: none;
+}
+
+.slidebox {
+	width: 200px;
+	height: 0px;
+	background: rgba(16, 16, 16, 0.5);
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	z-index: 10;
+}
+
+.navhang li {
+	height: 90px;
+	float: left;
+	line-height: 90px;
+	width: 120px;
+	text-align: center;
+}
+
+.navhang li a {
+	padding: 0px;
+}
+
+.bor-bottom {
+	border-bottom: 2px solid #1F7C82;
+}
+.userzhang{
+	background-image: url(../image/admin.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	float: right;
+	width: 100px;
+	line-height: 90px;
+	text-align: center;
+	cursor: pointer;
+	color: #1f7c82;
+	margin-right: 120px;
+	position: relative;
+}
+.outb{
+	position: absolute;
+	top: 70px;
+	width: 100px;
+	text-align: center;
+	left: 0px;
+	z-index: 100;
+	line-height: 20px;
+	color: #1f7c82;
+	display: none;
+	background:white;
+}

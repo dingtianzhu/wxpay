@@ -1,0 +1,236 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	color: rgb(62,144,149);
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.body {
+	width: 100%;
+	min-width: 1200px;
+}
+
+
+.camerabox {
+	float: left;
+	width: 200px;
+	min-height: 770px;
+	background: #d1e9eb;
+	margin-top: 5px;
+}
+
+.cameratitle {
+	margin: 0 auto;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.camlist {
+	width: 160px;
+	margin: auto;
+	border: 1px solid rgb(167,211,214);
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.clickbox {
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.topjian {
+	border-bottom: 4px dashed;
+	border-top: 0px;
+}
+
+.listmenu {
+	display: none;
+}
+
+.listmenu a {
+	display: block;
+	padding: 8px;
+	text-align: center;
+	color: rgb(62,144,149);
+}
+
+.listmenu a:hover {
+	text-decoration: none;
+}
+
+.listmenu a:focus {
+	text-decoration: none;
+}
+
+.fourboxp {
+	float: left;
+	min-width: 700px;
+	min-height: 770px;
+	position: relative;
+	background: #f5f5f5;
+	margin-top: 5px;
+}
+
+.sstitle {
+	height: 40px;
+	line-height: 40px;
+	text-indent: 4em;
+	font-weight: bold;
+}
+
+.sivideo {
+	border: 2px solid #d1e9eb;
+	/*background: url(../image/videoposter.png);*/
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	min-height: 350px;
+}
+
+
+#zt {
+	left: 5px;
+	top: 40px;
+}
+
+#yt {
+	right: 5px;
+	top: 40px;
+}
+
+#zx {
+	left: 5px;
+	bottom: 5px;
+}
+
+#yx {
+	right: 5px;
+	bottom: 5px;
+}
+
+.title_close {
+	height: 40px;
+	background: #1f7c8273;
+	line-height: 40px;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+
+.videoname {
+	float: left;
+	color: white!important;
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+.closex {
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+	color: white!important;
+	transition: font-size 0.1s;
+}
+
+.closex:hover {
+	font-size: 20px;
+}
+
+.sivideo video {
+	object-fit: fill
+}
+
+.picshow {
+	float: right;
+	width: 300px;
+	min-height: 780px;
+	overflow: hidden;
+	background: #d1e9eb;
+	margin-top: 5px;
+}
+
+.pictops {
+	height: 40px;
+	line-height: 40px;
+}
+
+.inhuibtn {
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.inyuanbtn{
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.tans{
+	display: none;
+}
+
+.mored {
+	float: right;
+	margin-right: 20px;
+	width: 80px;
+	text-align: center;
+	height: 30px;
+	margin-top: 5px;
+	color: rgb(62,144,149);
+	line-height: 30px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-decoration: none;
+	border: 1px solid rgb(167,211,214);
+}
+.mored:hover{
+	text-decoration: none;
+}
+
+.picp {
+	overflow-y: scroll;
+	 -ms-overflow-style: none;
+	 overflow:-moz-scrollbars-none;
+}
+
+.picp::-webkit-scrollbar {
+	width: 0px;
+}
+
+
+.picp span {
+	float: left;
+	width: 140px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding: 4px;
+	border: 1px solid rgb(62,144,149);
+	position: relative;
+	overflow: hidden;
+}
+
+.picp span img {
+	width: 100%;
+}
+
+.pepolediv {
+	position: absolute;
+	bottom: 0px;
+	padding-bottom: 2px;
+	text-align: center;
+	width: 100%;
+	left: 0px;
+	background: rgba(16, 16, 16, 0.3);
+}
+
+.pepolediv p {
+	margin: 0px;
+	color: white!important;
+}
